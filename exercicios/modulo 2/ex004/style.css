@@ -1,0 +1,27 @@
+* 
+.box-interativa {
+    display: inline-block;
+font-weight: bold;
+border: 20px rgb(0, 0, 0);
+text-align: center;
+background-color: rgba(3, 49, 255, 0.411);
+color: brown;
+padding: 12px 20px; 
+border-radius: 10px;
+width: fit-content;
+ transition: 0.3s;
+cursor: pointer;
+border-style: dashed;
+border-width: 5px;
+border-color: rgb(68, 0, 255);
+}
+.box-interativa:hover{
+    display: inline-block;
+     background-color: red;
+    color: rgb(0, 0, 0);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    border-width: 5px;
+    border-color: black;
+    
+}

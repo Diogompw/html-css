@@ -1,0 +1,43 @@
+*
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(82, 79, 64, 0.329)
+}
+header {
+padding: 10px;
+margin: 10px;
+border: 1px solid rgb(34, 0, 255);
+border-radius: 10px;
+background-color: rgba(1, 6, 78, 0.253);
+}
+nav{
+    background-color: rgb(50, 52, 59);
+    padding: 2px;
+    
+}
+nav > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 50px;
+}
+main {
+    border-radius: 10px;
+background-color: white;
+padding: 10px;
+margin: 10px;
+}
+article {
+margin: 1px;
+padding: 10px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+
+}
+footer >p {
+    margin: 0px;
+}
